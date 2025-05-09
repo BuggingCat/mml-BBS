@@ -4,6 +4,8 @@ the first time I gain insight in Javascript frontend & backend
 
 I'm happy to see these code run without bugs!
 
+![屏幕截图_9-5-2025_13933_192 168 68 55](https://github.com/user-attachments/assets/be3fbe26-7af4-4b12-b17b-53f04cc26fcd)
+
 ## Introduction
 
 Inspired by Vislab's BBS, I made this simple one. It’s a great way to record thoughts, moments, meeting summaries, or reading notes through posts. I also thought it would be fun to include location data when posting—just like Xiaohongshu (RedNote), where users can "check in" during their travels. You can post some messages on mml's BBS and it supports markdown format. All the posts are stored in a local `db.json` file.
