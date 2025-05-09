@@ -189,27 +189,6 @@
     }
 
     // 渲染论坛帖子
-    /*function renderForum() {
-      const posts = getPosts();
-      forum.innerHTML = posts.map((post, index) => {
-        const content = post.content ? marked.parse(post.content) : '';
-        return `
-          <div class="post">
-            <img src="https://buggingcat.github.io/01.png" alt="Avatar" class="avatar">
-            <div class="content">
-              <strong>${post.name}</strong>
-              <div class="post-body">${content}</div>
-              <div class="post-footer">
-                <div class="timestamp">Posted at: ${post.timestamp}</div>
-                <button class="delete-button" onclick="deletePost(${index})"></button>
-              </div>
-            </div>
-          </div>
-        `;
-      }).join('');
-      forum.scrollTop = forum.scrollHeight;
-    }*/
-
     async function renderForum() {
       const posts = await getPosts(); // 等待 fetch 完成
       forum.innerHTML = Array.isArray(posts)
@@ -244,23 +223,6 @@
     });
 
     // get user city by Mapbox API
-    /*
-    function getUserCity() {
-      return new Promise((resolve, reject) => {
-        navigator.geolocation.getCurrentPosition(success => {
-          const { latitude, longitude } = success.coords;
-          const token = 'pk.eyJ1IjoibW1sMjMzIiwiYSI6ImNtOHpiajB1YjA5aG4ya3F5cGNhMzdrNGUifQ.HA1zDisIy1TOEzsHfhbx-Q';
-          fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?access_token=${token}`)
-            .then(res => res.json())
-            .then(data => {
-              const place = data.features.find(f => f.place_type.includes("place"));
-              resolve(place ? place.text : "Unknown");
-            })
-            .catch(() => resolve("Unknown"));
-        }, () => resolve("Unknown")); // 位置权限失败时返回 Unknown
-      });
-    }*/
-
     function getUserCity() {
       return new Promise((resolve, reject) => {
         navigator.geolocation.getCurrentPosition(success => {
