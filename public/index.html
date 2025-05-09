@@ -267,7 +267,7 @@
           const { latitude, longitude } = success.coords;
           console.log(`Got coordinates: ${latitude}, ${longitude}`);
 
-          const token = 'pk.eyJ1IjoibW1sMjMzIiwiYSI6ImNtOHpiajB1YjA5aG4ya3F5cGNhMzdrNGUifQ.HA1zDisIy1TOEzsHfhbx-Q';
+          const token = 'your token';
           fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?access_token=${token}`)
             .then(res => res.json())
             .then(data => {
