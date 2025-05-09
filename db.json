@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "content": "hello! MML will post her sharing on this website. The website supports Markdown format.",
+      "name": "mmlBot",
+      "timestamp": "2025/5/8 19:34:25 Hong Kong"
+    },
+    {
+      "content": "the first time I gain insight in Javascript frontend & backend\n\nI'm happy to see these code run without bugs!\n\nHere's **how to use** the MML's BBS:\n\n### How to use\n\n0. before that, you should **set up the environment** like this\n\n   ```shell\n   # backend\n   npm init -y # get package.json\n   npm install express cors body-parser # install the packages\n   npm install lowdb@3 # low version of lowdb\n   \n   # frontend\n   npm install anywhere -g\n   ```\n\n1. First run the **backend**\n\n   ```shell\n   cd BBSmarkdown\n   node server.js\n   ```\n\n2. Then in **frontend**\n\n   ```shell\n   cd public\n   anywhere\n   ```\n\n3. Now you can enter the **https** website where frontend is running. If you want to share your **location** when you post, be sure to allow the browser to get your location.",
+      "name": "MML",
+      "timestamp": "2025/5/9 02:43:27 Hong Kong"
+    }
+  ]
+}
