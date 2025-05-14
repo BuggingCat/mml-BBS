@@ -4,7 +4,8 @@ the first time I gain insight in Javascript frontend & backend
 
 I'm happy to see these code run without bugs!
 
-![屏幕截图_9-5-2025_13933_192 168 68 55](https://github.com/user-attachments/assets/be3fbe26-7af4-4b12-b17b-53f04cc26fcd)
+![image](https://github.com/user-attachments/assets/ee512a50-ddce-4c49-baa8-7ba32f4ad50d)
+
 
 ## Introduction
 
@@ -54,3 +55,9 @@ Here's **how to use** the MML's BBS:
    ```
 
 3. Now you can enter the **https** website where frontend is running. If you want to share your **location** when you post, be sure to allow the browser to get your location.
+
+4. Edit your post at the bottom of this page;
+   Post by click "Send" button;
+   Review your writing on the right textbox;
+   Copy down content with markdown format by clicking "export" button;
+   Delete the contents by clicking the "rubbish bin" button. 
