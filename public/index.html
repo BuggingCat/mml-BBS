@@ -172,6 +172,18 @@
       });
     }
 
+    // 复制帖子
+    function copyMarkdown(button) {
+      const markdown = decodeURIComponent(button.getAttribute('data-markdown'));
+      navigator.clipboard.writeText(markdown)
+        .then(() => {
+          alert('Markdown copied to clipboard!');
+        })
+        .catch(err => {
+          console.error('Failed to copy: ', err);
+        });
+    }
+
     // 删除帖子
     /*function deletePost(index) {
       const posts = getPosts();
@@ -202,7 +214,10 @@
                   <div class="post-body">${content}</div>
                   <div class="post-footer">
                     <div class="timestamp">Posted at: ${post.timestamp}</div>
-                    <button class="delete-button" onclick="deletePost(${index})"></button>
+                    <div>
+                      <button class="export-button" onclick="copyMarkdown(this)" data-markdown="${encodeURIComponent(post.content)}"></button>
+                      <button class="delete-button" onclick="deletePost(${index})"></button>
+                    </div>
                   </div>
                 </div>
               </div>
