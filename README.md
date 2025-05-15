@@ -6,6 +6,8 @@ I'm happy to see these code run without bugs!
 
 ![image](https://github.com/user-attachments/assets/ee512a50-ddce-4c49-baa8-7ba32f4ad50d)
 ![image](https://github.com/user-attachments/assets/3e52c7fb-7a23-47b4-9d3f-47b58f3274ee)
+An example: 
+![image](https://github.com/user-attachments/assets/a09666dc-722c-4abe-a4c3-063605728907)
 
 
 ## Introduction
