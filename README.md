@@ -46,7 +46,6 @@ Here's **how to use** the MML's BBS:
 1. First run the **backend**
 
    ```shell
-   cd BBSmarkdown
    node server.js
    ```
 
