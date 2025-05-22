@@ -8,6 +8,8 @@ I'm happy to see these code run without bugs!
 ![image](https://github.com/user-attachments/assets/3e52c7fb-7a23-47b4-9d3f-47b58f3274ee)
 An example: 
 ![image](https://github.com/user-attachments/assets/a09666dc-722c-4abe-a4c3-063605728907)
+Now it supports render math formula:
+![image](https://github.com/user-attachments/assets/3cb8f860-c1f9-4bad-b17a-b3fb159d1a56)
 
 
 ## Introduction
