@@ -10,6 +10,8 @@ An example:
 ![image](https://github.com/user-attachments/assets/a09666dc-722c-4abe-a4c3-063605728907)
 Now it supports render math formula:
 ![image](https://github.com/user-attachments/assets/3cb8f860-c1f9-4bad-b17a-b3fb159d1a56)
+Now it shows checkbox correctly: 
+![image](https://github.com/user-attachments/assets/b7ba7cd7-1092-481d-b5f0-b43b7c7bdf93)
 
 
 ## Introduction
